@@ -5,5 +5,29 @@ body * {
     vertical-align: top;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
+}
+
+.bg-image {
+    display: inline-block;
+    background-image: url(../img/Tik_svarus_vaizdas.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    
+
+
+}
+
+.container {
+    display: inline-block;
+    width: 400px;
+    min-height: 100vh;
+    opacity: initial;
+
+
+
+
 }
