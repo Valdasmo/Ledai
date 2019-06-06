@@ -5,12 +5,15 @@ body * {
     vertical-align: top;
     box-sizing: border-box;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* background-color: var(--bg-color); */
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
 }
 
 .bg-image {
     display: inline-block;
-    background-image: url(../img/Tik_svarus_vaizdas.png);
+    background-image: url(../img/bg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -23,11 +26,66 @@ body * {
 
 .container {
     display: inline-block;
-    width: 400px;
-    min-height: 100vh;
-    opacity: initial;
-
-
-
+    width: 800px;
+    margin-left: calc( (100% - 800px) / 2);
+    top: 130px;
+    position: absolute;
+    /*max-height: 100vh; */
+    background: url(../img/Tik_svarus_vaizdas.png);
+    background-size: cover;
+    background-position: right;
 
 }
+
+     .container > header {
+        display: inline-block;
+        width: 90%;
+        
+    
+    }
+            .container > header > img {
+                display: inline-block;
+                margin-left: 70px;
+            }
+            .container > header > a {
+                display: inline-block;
+                margin-left: 6px;
+                
+            }
+            .container > header > nav {
+                display: inline-block;
+                float: right;
+    }
+
+                .container > header > nav >a {
+                    display: inline-block;
+                           
+    }
+                .container > header > nav > .contact {
+                    display: inline-block;
+                    margin-left: 50px;
+                }
+    
+        .container > .left {
+            display: inline-block;
+            font-size: 50px;
+            height: 300px;
+            margin-top: 150px;
+            
+
+        }
+        .container > .left > div {
+            display: inline-block;
+            font-size: 17px;
+            margin-top: 20px;
+            
+
+        }
+        /* .container > .left > div > p { */
+        
+            /* color: red; */
+        }
+        /* .container > .right {
+            display: inline-block;
+            background-color: red; */
+        }
